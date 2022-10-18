@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="br.edu.utfpr.agroretorno.FirstFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_QuintoFragment"
+            app:destination="@id/QuintoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="br.edu.utfpr.agroretorno.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second">
+
+        <argument
+            android:name="teste"
+            app:argType="integer"
+            android:defaultValue="555" />
+
+        <action
+            android:id="@+id/action_SecondFragment_to_TerceiroFragment"
+            app:destination="@id/TerceiroFragment" />
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/TerceiroFragment"
+        android:name="br.edu.utfpr.agroretorno.TerceiroFragment"
+        android:label="@string/terceiro_fragment_label"
+        tools:layout="@layout/fragment_terceiro">
+
+        <action
+            android:id="@+id/action_TerceiroFragment_to_QuartoFragment"
+            app:destination="@id/QuartoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/QuartoFragment"
+        android:name="br.edu.utfpr.agroretorno.QuartoFragment"
+        android:label="@string/quarto_fragment_label"
+        tools:layout="@layout/fragment_quarto">
+    </fragment>
+    <fragment
+        android:id="@+id/QuintoFragment"
+        android:name="br.edu.utfpr.agroretorno.QuintoFragment"
+        android:label="@string/quinto_fragment_label"
+        tools:layout="@layout/fragment_quinto">
+    </fragment>
+</navigation>

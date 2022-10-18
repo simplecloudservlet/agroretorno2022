@@ -1,0 +1,1207 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+        android:id="@+id/ano"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:text="@string/rotulo_ano" />
+        <TextView
+                    android:id="@+id/receita"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginEnd="12dp"
+                    android:text="@string/rotulo_receita" />
+        <TextView
+                    android:id="@+id/custo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginEnd="12dp"
+                    android:text="@string/rotulo_custo" />
+        <TextView
+                    android:id="@+id/fc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginEnd="12dp"
+                    android:text="@string/rotulo_fc"
+                    android:textSize="12dp" />
+    </LinearLayout>
+
+    <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/ano1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="1"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/receita1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="0"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/custo1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="0"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/fc1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:editable="false"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true"
+                        android:text="0" />
+                </LinearLayout>
+            </HorizontalScrollView>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:id="@+id/linha2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/ano2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="2"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/receita2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="0"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/custo2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="0"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/fc2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true"
+                        android:text="0" />
+                </LinearLayout>
+            </HorizontalScrollView>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:id="@+id/linha3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/ano3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="3"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/receita3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="0"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/custo3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="0"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/fc3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true"
+                        android:text="0" />
+                </LinearLayout>
+            </HorizontalScrollView>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:id="@+id/linha4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/ano4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="4"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/receita4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="0"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/custo4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="0"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/fc4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true"
+                        android:text="0" />
+                </LinearLayout>
+            </HorizontalScrollView>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:id="@+id/linha5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/ano5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="5"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/receita5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="0"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/custo5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="0"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/fc5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true"
+                        android:text="0" />
+                </LinearLayout>
+            </HorizontalScrollView>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:id="@+id/linha6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/ano6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="6"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/receita6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="0"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/custo6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="0"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/fc6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true"
+                        android:text="0" />
+
+                </LinearLayout>
+            </HorizontalScrollView>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:id="@+id/linha7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/ano7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="7"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/receita7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="0"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/custo7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="0"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/fc7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true"
+                        android:text="0" />
+                </LinearLayout>
+            </HorizontalScrollView>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:id="@+id/linha8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/ano8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="8"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/receita8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="0"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/custo8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="0"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/fc8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true"
+                        android:text="0" />
+                </LinearLayout>
+            </HorizontalScrollView>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:id="@+id/linha9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/ano9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="9"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/receita9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="0"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/custo9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="0"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/fc9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true"
+                        android:text="0" />
+                </LinearLayout>
+            </HorizontalScrollView>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:id="@+id/linha10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/ano10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="10"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/receita10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="0"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/custo10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="0"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/fc10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true"
+                        android:text="0" />
+                </LinearLayout>
+            </HorizontalScrollView>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:id="@+id/linha11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/ano11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="11"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/receita11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="0"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/custo11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="0"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/fc11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true"
+                        android:text="0" />
+                </LinearLayout>
+            </HorizontalScrollView>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:id="@+id/linha12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/ano12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="12"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/receita12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="0"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/custo12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="0"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/fc12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true"
+                        android:text="0" />
+                </LinearLayout>
+            </HorizontalScrollView>
+            
+            <!-- 13 a 24 -->
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/ano13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="13"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/receita13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="0"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/custo13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="0"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/fc13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:editable="false"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true"
+                        android:text="0" />
+                </LinearLayout>
+            </HorizontalScrollView>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:id="@+id/linha14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/ano14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="14"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/receita14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="0"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/custo14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="0"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/fc14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true"
+                        android:text="0" />
+                </LinearLayout>
+            </HorizontalScrollView>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:id="@+id/linha15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/ano15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="15"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/receita15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="0"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/custo15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="0"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/fc15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true"
+                        android:text="0" />
+                </LinearLayout>
+            </HorizontalScrollView>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:id="@+id/linha16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/ano16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="16"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/receita16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="0"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/custo16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="0"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/fc16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true"
+                        android:text="0" />
+                </LinearLayout>
+            </HorizontalScrollView>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:id="@+id/linha17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/ano17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="17"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/receita17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="0"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/custo17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="0"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/fc17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true"
+                        android:text="0" />
+                </LinearLayout>
+            </HorizontalScrollView>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:id="@+id/linha18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/ano18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="18"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/receita18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="0"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/custo18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="0"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/fc18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true"
+                        android:text="0" />
+
+                </LinearLayout>
+            </HorizontalScrollView>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:id="@+id/linha19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/ano19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="19"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/receita19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="0"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/custo19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="0"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/fc19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true"
+                        android:text="0" />
+                </LinearLayout>
+            </HorizontalScrollView>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:id="@+id/linha20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/ano20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="20"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/receita20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="0"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/custo20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="0"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/fc20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true"
+                        android:text="0" />
+                </LinearLayout>
+            </HorizontalScrollView>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:id="@+id/linha21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/ano21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="21"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/receita21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="0"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/custo21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="0"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/fc21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true"
+                        android:text="0" />
+                </LinearLayout>
+            </HorizontalScrollView>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:id="@+id/linha22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/ano22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="22"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/receita22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="0"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/custo22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="0"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/fc22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true"
+                        android:text="0" />
+                </LinearLayout>
+            </HorizontalScrollView>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:id="@+id/linha23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/ano23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="23"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/receita23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="0"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/custo23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="0"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/fc23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true"
+                        android:text="0" />
+                </LinearLayout>
+            </HorizontalScrollView>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:id="@+id/linha24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/ano24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="24"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/receita24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="0"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/custo24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="0"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true" />
+                    <EditText
+                        android:id="@+id/fc24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="24dp"
+                        android:inputType="numberDecimal"
+                        android:selectAllOnFocus="true"
+                        android:text="0" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <!-- Botoes -->
+            <LinearLayout
+                android:id="@+id/llBotoes2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/botao_reiniciar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|bottom"
+                    android:textSize="12dp"
+                    android:text="@string/botao_reiniciar"
+                    android:textAllCaps="false" />
+                <Button
+                    android:id="@+id/botao_repetir"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|bottom"
+                    android:text="@string/botao_repetir"
+                    android:textSize="12dp"
+                    android:textAllCaps="false" />
+                <Button
+                    android:id="@+id/botao_calcular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|bottom"
+                    android:textSize="12dp"
+                    android:text="@string/botao_calcular"
+                    android:textAllCaps="false" />
+                <Button
+                    android:id="@+id/botao_avancar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|bottom"
+                    android:textSize="12dp"
+                    android:text="@string/botao_avancar"
+                    android:textAllCaps="false" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">AgroInvestimento - Versão 14</string>
+    <string name="versao">Versão 14</string>
+    <string name="app_ano">2021</string>
+
+    <string name="sobre">Sobre...</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">AgroInvestimento</string>
+    <string name="second_fragment_label">Investimento</string>
+    <string name="terceiro_fragment_label">Fluxo de Caixa</string>
+    <string name="quarto_fragment_label">Lucratividade</string>
+    <string name="quinto_fragment_label">Teste de Rolagem</string>
+
+    <string name="autor1">f</string>
+    <string name="filiacao1">e</string>
+    <string name="autor2">d</string>
+    <string name="filiacao2">c</string>
+    <string name="autor3">b</string>
+    <string name="filiacao3">a</string>
+
+    <string name="next">Avançar</string>
+    <string name="previous">Previous</string>
+    <string name="calcular_investimento">Calcular Investimento</string>
+
+    <string name="rotulo_prazo_anos">Prazo em Anos</string>
+
+    <string name="botao_retornar">Retornar</string>
+    <string name="botao_avancar">Avançar</string>
+    <string name="botao_repetir">Repetir</string>
+    <string name="botao_reiniciar">Limpar</string>
+    <string name="botao_calcular">Calcular</string>
+
+    <string name="rotulo_investimento">Investimento Inicial (R$)</string>
+    <string name="rotulo_juros">Taxa de Juros (%). Exemplo: 5 = 5%</string>
+    <string name="rotulo_ano">Ano</string>
+    <string name="rotulo_receita">Receita</string>
+    <string name="rotulo_custo">Custo</string>
+    <string name="rotulo_fc">F. Caixa</string>
+    <string name="rotulo_desconto">Desconto</string>
+
+    <string name="rotulo_somadescontos">Soma Descontos (R$)</string>
+    <string name="rotulo_vpl">Valor Presente Líquido (VPL) (R$)</string>
+    <string name="rotulo_il">Índice de Lucratividade (IL)</string>
+    <string name="rotulo_tir">Taxa Interna de Retorno (TIR) (%)</string>
+    <string name="rotulo_payback">Pay Back Descontado</string>
+
+    <string name="rotulo_resultado">Resultado</string>
+    <string name="rotulo_viavel">Viável</string>
+    <string name="rotulo_inviavel">Inviável</string>
+
+</resources>
